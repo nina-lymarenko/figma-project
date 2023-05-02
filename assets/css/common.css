@@ -1,0 +1,63 @@
+:root{
+  --accent-color: #34547A;
+  --accent-bg-color: #EEEFF1;
+  --heading-color: #000000;
+  --text-color: #727272;
+  --accent-text-color:#FFFFFF;
+
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+}
+
+.main-heading,
+.sub-heading{
+  font-weight: 500;
+}
+
+.main-heading{
+  font-size: 3rem;
+  line-height: 1.45;
+}
+
+.sub-heading{
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.btn,
+.text{
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.text{
+  color: var(--text-color);
+}
+
+.btn{
+  background-color: var(--accent-color);
+color: var(--accent-text-color);
+padding: 25px 40px;
+}
+
+/*
+
+breakpoints
+576px
+768px
+992px
+1200px
+400px
+*/
+
+@media  screen and (min-width: 576px) {
+  :root{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  :root{
+    font-size: 16px;
+  }
+}
