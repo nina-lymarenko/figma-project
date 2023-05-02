@@ -8,16 +8,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script defer src="assets/js/index.js"></script>
   <title>Document</title>
 </head>
 <body>
   <header class="header">
-    <div class="container">
+    <div class="header-flex">
       <h1 class="logo">
         <a href="#" class="logo-link">WD</a>
       </h1>
       <nav class="nav">
-        <ul class="nav-list">
+        <button class="burger" id="burger">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </button>
+        <ul class="nav-list hidden-display" id="nav-list">
           <li class="nav-list-item">
           <a href="#" class="nav-link">ГЛАВНАЯ</a></li>
           <li class="nav-list-item">
